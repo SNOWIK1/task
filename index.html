@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <title>Main Page</title>
+
+    <h1>
+        <center>It is the main page of example site</center>
+    </h1>
+    <div class="extraText">
+        Этот текст нужен для сообщения читателю дополнительной информации.
+    </div>
+   
+        <h3>Как, что и на чём?</h3>
+        <div class="siteContent">
+        <p> Сайт написан с использованием JS, HTML  и CSS. Данный текст
+            находится в  теге "р",
+            он стилизован с использованием файла CSS, текст написан 22
+            января 2022 года. Я отправляю HTML-файл main.html на сервер с помощью метода
+            <strong>.sendFile()</strong>
+        </p>
+
+        <div class="commentsArea">
+            <p>Здесь вы можете разместить свой комментарий.</p>
+            <textarea class="areas" id="enterNam" placeholder="Введите своё имя..."></textarea>
+            <textarea class="areas" id="enterCom" placeholder="Введите комментарий..."></textarea>
+            <input type="button" id="btn" class="comSender" value="Опубликовать" />
+            <div class="comField">
+            <label id="publicName" class="name"> Test Name</label>
+            <br/>
+            <label id="publicComm" class="comment"> Test comment. </label>
+            </div>
+
+        </div>
+
+        <div class="frameText">Для создания и отправки
+            комментариев я использовал элементы input, textarea
+            и label. <a href="why.html">(не работает)</a>.
+        </div>
+
+    </div>
+    <script defer src="index.js"></script>
+</body>
+
+</html>
